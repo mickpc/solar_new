@@ -16,7 +16,7 @@
 			setInterval ("document.getElementById ('date-time').firstChild.data = new 				Date().toLocaleString()", 50)
 }
 		</script>
-        <img src="https://www.pythonanywhere.com/user/mickpc/files/home/mickpc/myfig.png" alt="">
+		<img src="pic_mountain.jpg" alt="Smiley face" height="200" width="200"> 
 
 
 
