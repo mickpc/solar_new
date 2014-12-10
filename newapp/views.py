@@ -26,7 +26,7 @@ import graph
 
 def index(request):
 
-	graph.generate()
+	#graph.generate()
 
 	
 # Request the context of the request.
@@ -40,7 +40,11 @@ def index(request):
     # Return a rendered response to send to the client.
     # We make use of the shortcut function to make our lives easier.
     # Note that the first parameter is the template we wish to use.
-	return render_to_response('index.html', context_dict, context)
+
+
+	#return render_to_response('index.html', context_dict, context)
+
+    return HttpResponse("Hello, world. You're at the polls index.")
 
 #def index(request):
 #    return HttpResponse("Michael says hello world!")
