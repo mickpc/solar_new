@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>The Solar Monitor</title>
+		<META HTTP-EQUIV="refresh" CONTENT="15">
+    </head>
+
+    <body>
+
+
+        <h1>The solar monitor...</h1>
+			<script type="text/javascript">
+			document.write ('<p>Current time is: <span id="date-time">', new 		Date		().toLocaleString(), '<\/span>.<\/p>')
+			if (document.getElementById) onload = function () {
+			setInterval ("document.getElementById ('date-time').firstChild.data = new 				Date().toLocaleString()", 50)
+}
+		</script>
+		<img src="pic_mountain.jpg" alt="Smiley face" height="200" width="200"> 
+
+
+
+
+	
+    </body>
+
+</html>
